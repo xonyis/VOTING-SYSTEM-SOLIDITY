@@ -39,6 +39,12 @@ Déployez le contrat VotingSystem :
 forge create --broadcast --rpc-url polygon_amoy --private-key <VOTRE_CLE_PRIVEE> src/VotingSystem.sol:VotingSystem --constructor-args <ADDRESS_TOKEN> 5000000000000000000000 8000 --legacy
 ```
 
+### Explication :
+- `--rpc-url polygon_amoy` : réseau Polygon Amoy.
+- `--private-key` : clé privée de votre wallet.
+- `src/VotingSystem.sol:VotingSystem` : contrat à déployer.
+- `constructor-args` : paramètres du contrat (adresse token, 5000 token minimum pour créer une proposition, 80% du total des token doit avoir voter pour valider le vote).
+
 Récupérez l’adresse où ce contrat a été déployé.
 
 ## 3. Mint de tokens supplémentaires
