@@ -2,6 +2,19 @@
 
 Ce guide explique les étapes nécessaires pour installer et déployer le projet blockchain.
 
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
+
+- [Node.js](https://nodejs.org/)
+- [Foundry](https://book.getfoundry.sh/getting-started/installation)
+- [Rabit Wallet](https://rabby.io/)
+
+1. **Cloner le dépôt**
+
+```bash
+  git clone https://github.com/xonyis/VOTING-SYSTEM-SOLIDITY.git
+```
 ## Récupération des informations du wallet
 
 Avant de commencer, vous aurez besoin d'un wallet avec des fonds sur le réseau Polygon Amoy (testnet) et des informations suivantes :
