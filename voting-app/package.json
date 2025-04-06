@@ -1,0 +1,33 @@
+{
+  "name": "voting-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "lint": "biome check .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": ">=5.45.0",
+    "@wagmi/core": "^2.16.7",
+    "@wagmi/vue": "^0.1.14",
+    "dotenv": "^16.4.7",
+    "dotenv-webpack": "^8.1.0",
+    "ethers": "^6.13.5",
+    "viem": "^2.23.14",
+    "vue": ">=3.4.21",
+    "wagmi": "^2.14.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.15",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "buffer": "^6.0.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.15",
+    "vite": "^5.2.11",
+    "vue-tsc": "^2.0.6"
+  }
+}
