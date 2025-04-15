@@ -85,6 +85,14 @@ Exemple pour transférer 1000 tokens :
 
 `<MONTANT> = 1000000000000000000000`
 
+
+Commande utile pour renvoyer tous les tokens d'un vote : 
+
+```bash
+cast send --rpc-url polygon_amoy --private-key <VOTRE_CLE_PRIVEE>
+ <ADDRESS_VOTE_SYSTEME> "triggerTokenReturn(uint256)" <ID_DE_LA_PROPOSITION>
+```
+
 ## 5. Fichier `.env` (Vue)
 
 Ajoutez ces deux adresses au fichier `.env` à la racine du projet voting-app :
